@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar*/
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+
+}
+ .Navbar{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    font-weight: bold;
+
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    padding: 8px 5px;
+    transition: all .5s ease;
+
+}
+.Navbar ul li a :hover{
+    background-color: cornsilk;
+    color: chocolate;
+    box-shadow: 0 0 10px white ;
+}
